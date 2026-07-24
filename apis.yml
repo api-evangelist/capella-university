@@ -1,8 +1,25 @@
 aid: capella-university
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/capella-university.png
 name: Capella University
-description: 'Capella University is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: education. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Capella University is an accredited online university owned by Strategic
+  Education, Inc. (SEI), offering competency-based bachelor''s, master''s, and doctoral
+  degrees plus graduate certificates across business, counseling and therapy, education,
+  health sciences, information technology, nursing, psychology, and social work. Capella
+  is regionally accredited by the Higher Learning Commission and delivers coursework
+  through two learning formats — FlexPath, a self-paced competency-based model, and
+  GuidedPath, a structured-timeline model — serving working adults and professional
+  learners entirely online.'
 url: https://raw.githubusercontent.com/api-evangelist/capella-university/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Education
+- Higher Education
+- Online Learning
+- University
+- Competency-Based Education
+- EdTech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/capella-university-domain-security.yml
+- type: Website
+  url: https://www.capella.edu/
+- type: Support
+  url: https://www.capella.edu/contact-us/
+- type: Blog
+  url: https://www.capella.edu/blog/
+- type: SignUp
+  url: https://apply.capella.edu/
+- type: Pricing
+  url: https://www.capella.edu/tuition-financial-aid/tuition-fees/
+- type: TermsOfService
+  url: https://www.capella.edu/terms-of-use/
+- type: PrivacyPolicy
+  url: https://www.capella.edu/privacy-policy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

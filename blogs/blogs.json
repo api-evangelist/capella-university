@@ -1,0 +1,14 @@
+{
+  "repo": "capella-university",
+  "feeds": [
+    {
+      "source": "https://www.capella.edu/contact-us/",
+      "feed_url": "https://www.capella.edu/contact-us/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
